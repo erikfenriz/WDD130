@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Music</title>
+    <meta name="description" content="classical music" />
+    <meta name="keywords" content="music, site, online, classical" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <header class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <img src="images/logo1.png" width="100px" alt="logo">
+                    <h1><a href="index.html">Classical Music</a></h1>
+                </div>
+            </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li><a href="index.html">Main</a></li>
+                    <li class="selected"><a href="events.html">Events</a></li>
+                    <li><a href="composers.html">Composers</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="site_content">
+            <div class="sidebar_container">
+                <div class="sidebar">
+                    <h2>Search</h2>
+                    <form method="post" action="#" id="search_from">
+                        <input type="search" name="search_field" placeholder="your request" />
+                        <input type="submit" class="btn" value="search" />
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Login</h2>
+                    <form method="post" action="#" id="login">
+                        <input type="text" name="login_field" placeholder="email" />
+                        <input type="password" name="password_field" placeholder="password" />
+                        <input type="submit" class="btn" value="enter" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#">forgot password?</a></span> | <span><a href="#">registration</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="info_event">
+                    <img src="images/events/events-1.jpg" alt="event">
+                    <p>Whether you are a beginner just looking to get into classical music but don't know where to start, or a seasoned musician interested in the lives and ideas of your fellow artists, this is for you. The event will feature the top artists of today, in-depth looks at specific pieces from the repertoire, and deep dives into each era of classical music</p>
+                    <div class="button"><a href="#">Order now</a></div>
+                </div>
+                <div class="info_event">
+                    <img src="images/events/events-2.jpg" alt="event"><p>This Classical event is an ongoing series of provocative movements with musicians who are pioneering a new path in the classical music genre. They show the musician's lives who have made an often risky move towards forging a unique path and creating a different kind of music career for themselves.
+                </p>
+                    <div class="button"><a href="#">Order now</a></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>
+                <a href="index.html">Main</a> |
+                <a href="events.html">Events</a> |
+                <a href="composers.html">Composers</a>
+            </p>
+            <p>Erik Rybalkin &copy; 2022</p>
+        </footer>
+
+</body>
+
+</html>
