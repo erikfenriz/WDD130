@@ -20,7 +20,7 @@ p {
     line-height: 1.7em;
 }
 
-a, p, span {
+a, p, span, td {
     font-family: 'Libre Franklin', "Helvetica Neue", sans-serif;
 }
 
@@ -124,7 +124,6 @@ ul li {
 
 .logo_text h2 {
     font-size: 0.9em;
-    /*padding: #999;*/
 }
 
 .menubar {
@@ -367,10 +366,12 @@ textarea {
 table {
     width: 100%;
     border: solid 1px #f4f4f4;
+    display: block;
+    margin-bottom: 20px;
 }
 
 td {
-    padding: 2%;
+    padding: 20px;
     border: solid 1px #f4f4f4;
 }
 
@@ -489,10 +490,7 @@ td img {
     .button {
         float: none;
     }
-    /* rating page */
-    table {
-        display: block;
-    }
+    /* composers page */
     th {
         font-size: 75%;
     }
@@ -502,7 +500,7 @@ td img {
         font-size: 95%;
         text-align: left;
     }
-    /* show page */
+    /* events page */
     iframe {
         width: 88%;
         height: 100%;
